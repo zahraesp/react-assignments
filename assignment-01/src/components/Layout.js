@@ -3,7 +3,7 @@
      
          width:'100%',
          backgroundColor: '#5454c7',
-         height: '200px',
+         height: '100px',
          fontSize: '2rem',
          color: '#fff',
          padding: '1rem 3rem',

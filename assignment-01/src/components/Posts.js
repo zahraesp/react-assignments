@@ -41,9 +41,7 @@ const Posts = () => {
   else{
     return(
       <React.Fragment>
-        <DisplaySinglePost post={post} onClickBack={goBackHandler}>
-
-        </DisplaySinglePost>
+        <DisplaySinglePost post={post} onClickBack={goBackHandler}/>
       </React.Fragment>
     )
   }
