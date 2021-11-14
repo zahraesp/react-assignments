@@ -1,8 +1,6 @@
 import React, { useState } from "react";
 import Box from "@mui/material/Box";
 import Checkbox from "@mui/material/Checkbox";
-import FormGroup from "@mui/material/FormGroup";
-import FormControlLabel from "@mui/material/FormControlLabel";
 import { Button, Grid, IconButton, Typography } from "@mui/material";
 import DeleteIcon from "@mui/icons-material/Delete";
 import EditIcon from "@mui/icons-material/Edit";
@@ -35,13 +33,13 @@ const Item = (props: any) => {
           </Box>
 
           <Box>
-            {/* <IconButton
+            <IconButton
               onClick={() => editTodo(item.id)}
               color="primary"
               component="span"
             >
               <EditIcon />
-            </IconButton> */}
+            </IconButton>
             <IconButton
               onClick={() => deleteTodo(item.id)}
               color="error"

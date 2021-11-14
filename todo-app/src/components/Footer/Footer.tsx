@@ -32,7 +32,7 @@ const Footer = (props: any) => {
         onClick={filterClick}
         value="ACTIVE"
       >
-        active
+        Active
       </Button>
     </Box>
   );
