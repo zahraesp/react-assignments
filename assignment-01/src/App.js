@@ -1,11 +1,11 @@
-import Posts from './components/Posts';
-import Layout from './components/Layout';
+import Main from './Component/Main';
+import Layout from './Component/Layout';
 
 function App() {
   return (
-    <div >
+    <div>
       <Layout/>
-      <Posts/>
+      <Main/>
     </div>
   );
 }
